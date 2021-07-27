@@ -27,6 +27,10 @@ function App() {
             <ClearRefinements />
             <h2>Brands</h2>
             <RefinementList attribute="brand" />
+            <h2>Categories</h2>
+            <RefinementList attribute="categories"/>
+            <h2>Price</h2>
+            <RefinementList attribute="price"/>
             <Configure hitsPerPage={10} />
           </div>
           <div className="right-panel">
